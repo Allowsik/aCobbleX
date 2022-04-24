@@ -18,6 +18,10 @@ public class cxCommand implements CommandExecutor {
             player.getInventory().removeItem(new org.bukkit.inventory.ItemStack(Material.COBBLESTONE, 9*64));
             sender.sendMessage("§7(§6§lSkrzynki§7) §7Wymieniono §e9 §7staków cobblestone na skrzynie!");
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "crates give " + player.getName() + " cx");
+        } else if (player.getInventory().contains(Material.COBBLED_DEEPSLATE, 9*64)) {
+            player.getInventory().removeItem(new org.bukkit.inventory.ItemStack(Material.COBBLED_DEEPSLATE, 9*64));
+            sender.sendMessage("§7(§6§lSkrzynki§7) §7Wymieniono §e9 §7staków deepslate na skrzynie!");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "crates give " + player.getName() + " cx");
         } else sender.sendMessage("§cNie posiadasz wystarczającej ilości bloków cobblestone!");
         return true;
     }

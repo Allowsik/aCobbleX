@@ -1,0 +1,6 @@
+name: aCobbleX
+version: '${project.version}'
+main: pl.allowsik.aCobbleX
+api-version: 1.18
+authors: [ Allowsik ]
+description: Simple plugin for cobblex

@@ -4,3 +4,8 @@ main: pl.allowsik.aCobbleX
 api-version: 1.18
 authors: [ Allowsik ]
 description: Simple plugin for cobblex
+commands:
+  cx:
+    description: CobbleX command
+    usage: /<command>
+    aliases: [ cobblex ]

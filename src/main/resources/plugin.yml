@@ -7,5 +7,4 @@ description: Simple plugin for cobblex
 commands:
   cx:
     description: CobbleX command
-    usage: /<command>
     aliases: [ cobblex ]
